@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ServiciosContables",
+    "slug": "ServiciosContables",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "ServiciosContables"
+}
