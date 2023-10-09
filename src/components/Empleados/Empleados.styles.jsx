@@ -21,8 +21,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     fontWeight: "bold",
     fontSize: 16,
-    /* backgroundColor: "#fff",
-    marginHorizontal: 4, */
     textAlign: "center",
   },
   tableRow: {
@@ -35,8 +33,6 @@ export const styles = StyleSheet.create({
   tableCell: {
     flex: 1,
     fontSize: 16,
-    /* backgroundColor: "#fff",
-    marginHorizontal: 4, */
     textAlign: "center",
   },
   viewMoreButton: {
@@ -60,13 +56,13 @@ export const styles = StyleSheet.create({
     color: "#213555",
   },
   button: {
-    width: 100, // Ancho deseado
-    height: 30, // Alto deseado
+    width: 100,
+    height: 30,
     fontSize: 12,
   },
   btnContent: {
-    justifyContent: "flex-start", // Alineación del contenido
-    alignItems: "flex-start", // Alineación de los items
-    marginBottom: 10, // Espacio entre el botón y el siguiente elemento
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    marginBottom: 10,
   },
 });

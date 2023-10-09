@@ -6,7 +6,6 @@ import { View, Text } from "react-native";
 
 export function FormScreen(props) {
   const { empleados, setEmpleados, showTodosEmpleados } = props;
-  //const [empleados, setEmpleados] = useState([]);
   const [showTabla, setShowTabla] = useState(true);
   const onOpenCloseTabla = () => setShowTabla((prevState) => !prevState);
 
@@ -32,7 +31,6 @@ export function FormScreen(props) {
           </View>
         )
       ) : null}
-      {/* <Empleados setEmpleados={setEmpleados} empleados={empleados} /> */}
     </ScrollView>
   );
 }

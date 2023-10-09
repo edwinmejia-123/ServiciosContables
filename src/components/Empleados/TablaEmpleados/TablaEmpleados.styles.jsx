@@ -11,8 +11,6 @@ export const styles = StyleSheet.create({
     flex: 1,
     fontWeight: "bold",
     fontSize: 16,
-    /* backgroundColor: "#fff",
-        marginHorizontal: 4, */
     textAlign: "center",
   },
   tableRow: {
@@ -25,8 +23,6 @@ export const styles = StyleSheet.create({
   tableCell: {
     flex: 1,
     fontSize: 16,
-    /* backgroundColor: "#fff",
-        marginHorizontal: 4, */
     textAlign: "center",
   },
   viewMoreButton: {

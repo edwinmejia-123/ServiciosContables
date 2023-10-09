@@ -6,7 +6,6 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 export function TablaEmpleados(props) {
   const { empleados, verMas, itemsPerPage } = props;
 
-  //const itemsPerPage = 5;
   const [currentPage, setCurrentPage] = useState(1);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
@@ -50,9 +49,6 @@ export function TablaEmpleados(props) {
               <Text style={styles.tableCell}>
                 ${parseFloat(item.descuento).toFixed(2)}
               </Text>
-              {/* <Text style={styles.tableCell}>
-                ${item.sueldoNeto.toFixed(2)}
-              </Text> */}
 
               <TouchableOpacity
                 onPress={() => verMas(item)}
