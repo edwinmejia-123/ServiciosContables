@@ -47,7 +47,7 @@ export function Form(props) {
       index: Math.random().toString(),
       name: nombre,
       apellido: apellido,
-      sueldo: sueldo, // Puedes cambiar esto según tus necesidades
+      sueldo: sueldo,
       renta: calculoRenta(),
       afp: calculoAFP,
       isss: calculoISSS,
